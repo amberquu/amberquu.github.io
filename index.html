@@ -9,7 +9,7 @@
   <meta property="og:description" content="M.S. student at NYU Courant &amp; Stern. NLP, AI for research, human-centred AI, AI in finance." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Zhi+Mang+Xing&display=swap" rel="stylesheet" />
   <style>
     :root {
       --ink:         #1b1f24;
@@ -20,8 +20,8 @@
       --bg:          #ffffff;
       --accent:      #1f4e79;
       --accent-soft: #e8eef5;
-      --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
-      --sans:  'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      --serif: 'Palatino Linotype', 'Book Antiqua', Palatino, 'Source Serif 4', Georgia, serif;
+      --brush: 'Zhi Mang Xing', 'STKaiti', 'KaiTi', cursive;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -39,11 +39,11 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body {
-      font-family: var(--sans);
+      font-family: var(--serif);
       background: var(--bg);
       color: var(--text);
-      font-size: 16px;
-      line-height: 1.7;
+      font-size: 17px;
+      line-height: 1.65;
       -webkit-font-smoothing: antialiased;
     }
     a { color: var(--accent); text-decoration: none; }
@@ -59,9 +59,9 @@
       max-width: 960px; margin: 0 auto; padding: .85rem 1.5rem;
       display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .4rem 1.5rem;
     }
-    .nav-brand { font-family: var(--serif); font-size: 1.35rem; font-weight: 600; color: var(--accent); }
+    .nav-brand { font-family: var(--serif); font-size: 1.45rem; font-weight: 700; color: var(--accent); }
     .nav-brand:hover { text-decoration: none; }
-    .nav-links { display: flex; flex-wrap: wrap; gap: .3rem 1.6rem; font-size: .95rem; font-weight: 500; }
+    .nav-links { display: flex; flex-wrap: wrap; gap: .3rem 1.6rem; font-size: 1.02rem; font-weight: 500; }
     .nav-links a { color: var(--text); }
     .nav-links a:hover { color: var(--accent); text-decoration: none; }
 
@@ -80,7 +80,7 @@
       font-family: var(--serif); font-size: 3rem; font-weight: 600; color: var(--accent);
     }
     .name { font-family: var(--serif); font-size: 2.1rem; font-weight: 600; color: var(--ink); line-height: 1.2; }
-    .name-zh { font-size: .95rem; color: var(--muted); margin-top: .25rem; letter-spacing: .12em; }
+    .name-zh { font-family: var(--brush); font-weight: 400; font-size: 2.1rem; letter-spacing: .06em; vertical-align: -.06em; }
     .role { margin-top: .9rem; font-size: .98rem; color: var(--text); }
     .affil { font-size: .95rem; color: var(--muted); }
     .links {
@@ -151,11 +151,9 @@
            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
       <div class="avatar-fallback" aria-hidden="true">CQ</div>
     </div>
-    <h1 class="name">Caiyu Qu</h1>
-    <div class="name-zh">屈彩钰</div>
+    <h1 class="name">Caiyu Qu (<span class="name-zh">屈彩钰</span>)</h1>
     <div class="role">M.S. Student</div>
-    <div class="affil">Courant Institute of Mathematical Sciences &amp; Stern School of Business</div>
-    <div class="affil">New York University</div>
+    <div class="affil">Courant &amp; Stern, New York University</div>
 
     <ul class="links">
       <li>
@@ -191,7 +189,7 @@
           I am an M.S. student at <a href="https://www.nyu.edu/" target="_blank" rel="noopener">New York University</a>,
           jointly in the <a href="https://cims.nyu.edu/" target="_blank" rel="noopener">Courant Institute of Mathematical Sciences</a>
           and the <a href="https://www.stern.nyu.edu/" target="_blank" rel="noopener">Stern School of Business</a>.
-          Currently, I am also a Research Assistant at Yale University, advised by Professor <a href="https://armancohan.com/" target="_blank" rel="noopener">Arman Cohan</a>.
+          Currently, I am also a Research Assistant at <a href="https://www.yale.edu/" target="_blank" rel="noopener">Yale University</a>, advised by Professor <a href="https://armancohan.com/" target="_blank" rel="noopener">Arman Cohan</a>.
           I was very fortunate to have Professor <a href="https://henryzhao5852.github.io/" target="_blank" rel="noopener">Chen Zhao</a> and
           Professor <a href="https://hua-shen.org/" target="_blank" rel="noopener">Hua Shen</a> supervise my research on deep research
           and HCI at NYU Shanghai this summer. Before coming to NYU, I received my B.Sc. in Information Science from
